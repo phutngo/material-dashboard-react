@@ -11,6 +11,7 @@ import TableList from "views/TableList.js";
 import Typography from "views/Typography.js";
 import NotificationsPage from "views/Notifications.js";
 import UpgradeToPro from "views/UpgradeToPro.js";
+import CycleTime from "views/CycleTime";
 
 const dashboardRoutes = [
   {
@@ -19,6 +20,14 @@ const dashboardRoutes = [
     rtlName: "لوحة القيادة",
     icon: Dashboard,
     component: DashboardPage,
+    layout: "/admin",
+  },
+  {
+    path: "/cycletime",
+    name: "Cycle Time Scatter Plot",
+    rtlName: "rtlname",
+    icon: Dashboard,
+    component: CycleTime,
     layout: "/admin",
   },
   {
