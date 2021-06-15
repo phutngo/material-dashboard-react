@@ -1,10 +1,10 @@
 // ##############################
-// // // javascript library for creating charts
+// javascript library for creating charts
 // #############################
 var Chartist = require("chartist");
 
 // ##############################
-// // // variables used to create animation on charts
+// variables used to create animation on charts
 // #############################
 var delays = 80,
   durations = 500;
@@ -12,7 +12,7 @@ var delays2 = 80,
   durations2 = 500;
 
 // ##############################
-// // // Daily Sales
+// Daily Sales
 // #############################
 
 const dailySalesChart = {
@@ -131,7 +131,7 @@ const emailsSubscriptionChart = {
 };
 
 // ##############################
-// // // Completed Tasks
+// Completed Tasks
 // #############################
 
 const completedTasksChart = {

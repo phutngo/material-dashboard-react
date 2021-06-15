@@ -9,6 +9,8 @@ import Info from "components/Typography/Info.js";
 import Success from "components/Typography/Success.js";
 import Warning from "components/Typography/Warning.js";
 import Danger from "components/Typography/Danger.js";
+
+//structure is Card then underneither is Card Header and CardBody
 import Card from "components/Card/Card.js";
 import CardHeader from "components/Card/CardHeader.js";
 import CardBody from "components/Card/CardBody.js";
@@ -50,7 +52,10 @@ const styles = {
   },
 };
 
-const useStyles = makeStyles(styles);
+const useStyles = makeStyles(styles); //a hook by material-ui to apply styles https://material-ui.com/styles/basics/
+//styles is defined above.
+
+//structure is Card then underneither is Card Header and CardBody
 
 export default function TypographyPage() {
   const classes = useStyles();
